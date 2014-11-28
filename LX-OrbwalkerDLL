@@ -1,0 +1,6 @@
+var targetSelectorMenu = new Menu("Target Selector", "Target Selector");
+SimpleTs.AddToMenu(targetSelectorMenu);
+worstConfig.AddSubMenu(targetSelectorMenu);
+
+worstConfig.AddSubMenu(new Menu("WorstOrbwalking", "Orbwalking"));
+worstOrbwalker = new WorstOrbwalker.WorstOrbwalker(worstConfig.SubMenu("Orbwalking"));
